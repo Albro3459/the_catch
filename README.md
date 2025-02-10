@@ -3,6 +3,7 @@
 ## Overview
 The Catch is a dating app built using **React Native, TypeScript, Expo Go, and Firebase** for real-time messaging, storage, and authentication. This project tied for **1st place** in the **Software Systems Development** class.
  * Created along with [@markstubbs04](https://github.com/markstubbs04), [@MParkerP](https://github.com/MParkerP), [@rferrell03](https://github.com/rferrell03), and [@Myles82](https://github.com/Myles82).
+ * **Note:** This project is a fork of a private repository, so the original git history is unavailable. :(
 
 ## Screen Shots
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 80px;">
@@ -49,9 +50,7 @@ The app requires **Firebase** for real-time Firestore database, storage, and aut
 Go to [Firebase Console](https://console.firebase.google.com/) and create a new Firebase project. Note that Firebase might require adding a payment method to enable Firestore, storage, and authentication.
 
 ### 2. Configure Firebase Credentials
-After setting up Firebase, retrieve your credentials and store them in `./firebase_secrets.ts`:
- * You will need to create this file first in the project root. 
-    * Make sure it is added in the .gitignore.
+Create a `firebase_secrets.ts` file in the project root and **add it to .gitignore**.
 
 ```typescript
 export const apiKey = "...";
