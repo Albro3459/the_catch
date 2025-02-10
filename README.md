@@ -2,6 +2,14 @@
 
 ## Overview
 The Catch is a dating app built using **React Native, TypeScript, Expo Go, and Firebase** for real-time messaging, storage, and authentication. This project tied for **1st place** in the **Software Systems Development** class.
+ * Created along with [@markstubbs04](https://github.com/markstubbs04), [@MParkerP](https://github.com/MParkerP), [@rferrell03](https://github.com/rferrell03), and [@Myles82](https://github.com/Myles82).
+
+## Screen Shots
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 80px;">
+   <img src="https://github.com/user-attachments/assets/04a06aaa-0b35-41b0-ae5a-01bdbf9232db" alt="Chat" height="400"/>
+   <img src="https://github.com/user-attachments/assets/1c028aed-546b-4674-ad18-41e2acfbd33b" alt="LandingPage" height="400"/>
+   <img src="https://github.com/user-attachments/assets/00d23997-24d8-4096-b2b8-3b4718817874" alt="Registration" height="400"/>
+</div>
 
 ## Installation
 
@@ -56,3 +64,4 @@ export const measurementId = "...";
 ```
 
 Make sure that all required Firebase services are enabled and properly configured in your Firebase Console.
+<br></br>
